@@ -4,7 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+<<<<<<< HEAD
 gunicorn = "*"
+=======
+>>>>>>> aa39cdf7e3621ec6ccb83bc650192d235fd5074b
+flask = "*"
 
 [dev-packages]
 nose = "*"
