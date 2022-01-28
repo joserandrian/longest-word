@@ -32,3 +32,4 @@ class TestGame(unittest.TestCase):
       new_game.grid = list('KWIENFUQW') # Forcer la grille à un scénario de test :
       self.assertIs(new_game.is_valid('FEUN'), False)
       
+      
